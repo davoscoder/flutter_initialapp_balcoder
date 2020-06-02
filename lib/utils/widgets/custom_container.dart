@@ -13,7 +13,7 @@ class CustomContainer extends StatelessWidget {
     return Center(
         child: Container(
       height: heightMedia * 0.5,
-      width: widthMedia * 0.4,
+      width: widthMedia * 0.8,
       decoration: BoxDecoration(
           color: Colors.blueAccent,
           borderRadius: BorderRadius.all(Radius.circular(50))),
@@ -24,7 +24,8 @@ class CustomContainer extends StatelessWidget {
               title,
               style: TextStyle(color: Colors.tealAccent, fontSize: 50),
             ),
-            Text(contador.toString(), style:TextStyle(color: Colors.deepOrangeAccent))
+            Text(contador.toString(),
+                style: TextStyle(color: Colors.white, fontSize: 20))
           ],
         ),
       ),
